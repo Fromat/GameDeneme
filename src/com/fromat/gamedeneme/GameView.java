@@ -156,32 +156,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback{
 
 		int mX = selectedGrid.centerX();
 		int mY = selectedGrid.centerY();
-//		if (lastGrid != null && lastGrid.centerX() != mX && lastGrid.centerY() != mY){
-//			completeFlow();
-//			return;
-//		}
-//
-//		Grid c = selectedGrid;
-//		lastGrid = c;
-//
-//		if (c == null) {
-//			completeFlow();
-//		} 
-//		else if (selectedGrid.selected) {
-//			int index = selectedList.indexOf(c);
-//			for (int k = index + 1; k < selectedList.size(); k++) {
-//				Grid s = selectedList.get(k);
-//				s.selected = false;
-//				selectedList.remove(s);
-//			}
-//		} 
-//		else if (!c.selected) {
-//			c.selected = true;
-//			selectedList.add(c);
-//		}
-//		else {
-//			completeFlow();;
-//		}
+
 	
 		
 		if(selectedGrid.gridElement == 1){
