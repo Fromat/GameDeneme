@@ -51,7 +51,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback{
 		mboard = new Board(gridNumber, 800, 800); //default 
 		mboard.CreateBoard();
 		
-		
+		//soneraswswswsws
 		mGameLogic = new GameLogic(getHolder(), this);
 		getHolder().addCallback(this);
 	}	
